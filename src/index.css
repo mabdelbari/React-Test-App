@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --main-color: #2C3E50;
+  --secondary-color: #1A252F;
+  --teritary-color: #1ABC9C;
+}
+
+.section-title .title-break {
+  width: 250px;
+  margin: auto;
+}
+
+.section-title .title-break::before,
+.section-title .title-break::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+
+}
+
+.section-title .title-break::before {
+  left: 0;
+}
+
+.section-title .title-break::after {
+  right: 0;
+}
+
+nav {
+  background-color: var(--main-color);
+  transition: all 0.5s;
+}
+
+nav .nav-link {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+nav .nav-link.active {
+  background-color: #1ABC9C;
+  border-radius: 5px;
+}
+
+.navbar-nav{
+  gap: 20px;
+}
+
+.home,
+.about {
+  background-color: var(--teritary-color);
+}
+
+.home .home-content img {
+  width: 250px;
+}
+
+
+/* Portfolio */
+
+.portfolio .section-title {
+  color: var(--main-color);
+
+}
+
+.portfolio .section-title .title-break::before,
+.portfolio .section-title .title-break::after {
+  background-color: var(--main-color);
+}
+
+.portfolio .card {
+  cursor: pointer;
+}
+
+.portfolio .card:hover .overlay {
+  opacity: 1;
+}
+
+.portfolio .card .overlay {
+  inset: 0;
+  opacity: 0;
+  background-color: var(--teritary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+#imgModal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(194, 219, 254, 0.5);
+  z-index: 999999999999;
+  text-align: center;
+}
+
+#imgModal img {
+  width: 600px;
+}
+
+/* Contact */
+
+.contact label {
+  color: var(--teritary-color);
+  position: relative;
+  top: 50px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+
+.contact input:focus {
+  box-shadow: none;
+}
+
+.contact .contact-form button {
+  background-color: var(--teritary-color) !important;
+}
+
+/* Footer */
+
+
+footer {
+  color: white;
+}
+
+footer .footer-details {
+  background-color: #2C3E50;
+}
+
+footer .footer-details .social-icons i {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+footer .footer-copy {
+  background-color: #1A252F;
+}
