@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Test-App/static/css/main.6cac5ace.css",
-    "main.js": "/React-Test-App/static/js/main.98295754.js",
+    "main.js": "/React-Test-App/static/js/main.ec440e61.js",
     "static/media/fa-solid-900.ttf": "/React-Test-App/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/fa-brands-400.ttf": "/React-Test-App/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
     "static/media/fa-solid-900.woff2": "/React-Test-App/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
@@ -16,10 +16,10 @@
     "static/media/fa-v4compatibility.woff2": "/React-Test-App/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/React-Test-App/index.html",
     "main.6cac5ace.css.map": "/React-Test-App/static/css/main.6cac5ace.css.map",
-    "main.98295754.js.map": "/React-Test-App/static/js/main.98295754.js.map"
+    "main.ec440e61.js.map": "/React-Test-App/static/js/main.ec440e61.js.map"
   },
   "entrypoints": [
     "static/css/main.6cac5ace.css",
-    "static/js/main.98295754.js"
+    "static/js/main.ec440e61.js"
   ]
 }
